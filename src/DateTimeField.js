@@ -58,7 +58,7 @@ export default class DateTimeField extends Component {
       inputFormat: this.resolvePropsInputFormat(),
       buttonIcon: this.props.mode === Constants.MODE_TIME ? "glyphicon-time" : "glyphicon-calendar",
       widgetStyle: {
-        display: "block",
+        display: "none",
         position: "absolute",
         left: -9999,
         zIndex: "9999 !important"
